@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="../libs/air-datepicker/dist/css/datepicker.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../libs/jquery-nice-select-1.1.0/css/nice-select.css">
+    <link rel="stylesheet" href="../css/style-admin.css">
+    <link rel="stylesheet" href="../css/media.css">
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<nav class="main-nav">
+				<a href="#" class="logo">
+					<img src="../img/logo.png" alt="logo">
+				</a>
+				<ul class="main-nav__btn">
+					<li>
+						<a href="#" class="favorite">Favorite</a>
+					</li>
+					<li>
+						<a href="#" class="btn def-tblue">Sign In</a>
+					</li>
+					<li>
+						<a href="#" class="btn def-ora">Add a New Company</a>
+					</li>
+				</ul>
+				<div class="burger"></div>
+			</nav>
+		</div>
+	</header>
+	<div class="container">
+		<div class="main-content">
+			<div class="main-block">
+				<ul class="crumbs">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Technicians</a></li>
+					<li><a href="#">Found: 52 Organizations</a></li>
+				</ul>
+				<div class="main-head">
+					<div class="com-card com-card--head">
+						<div class="com-card__img">
+							<div class="com-card__img-box">
+								<img src="../img/Awwwards-logo.svg" alt="logo-img">
+							</div>
+							<div class="com-card__clock none480">
+								<time>09:00</time>-<time>18:00</time>
+							</div>
+						</div>
+						<div class="com-card__info">
+							<h2 class="com-card__name">Awwwards Company</h2>
+							<p class="com-card__text com-card__text--lh75">Our salon is the official representative of professional cosmetics and today is
+								one of the best
+								on
+								the market.When it was used a century of experience creating popular recipes beauty, modern
+								technology,
+								the latest achievem... </p>
+						</div>
+						<div class="com-card__star none480">
+							<div class="star-block">
+								4.5
+							</div>
+						</div>
+					</div>
+					<div class="order-block">
+						<h3 class="title title--order">Order</h3>
+
+						<div class="order-items">
+
+							<div class="order-item order-line completed">
+								<div class="order-number">1</div>
+								<div class="order-text">Choose Service</div>
+							</div>
+
+							<div class="order-item order-line completed">
+								<div class="order-number">2</div>
+								<div class="order-text">Choose Specialist</div>
+							</div>
+
+							<div class="order-item order-line active">
+								<div class="order-number">3</div>
+								<div class="order-text">Choose Date/time</div>
+							</div>
+
+							<div class="order-item order-line">
+								<div class="order-number">4</div>
+								<div class="order-text">Enter Contacts</div>
+							</div>
+
+							<div class="order-item">
+								<div class="order-number">5</div>
+								<div class="order-text">Confirm Booking</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="block block--calendar">
+					<div class="calendar">
+                        <h4 class="title">Select a date</h4>
+                        <div class="" id="calendar"></div>
+                   </div>
+                   <div class="pick-time">
+                        <h4 class="title">Select a date <span class="total-ora">Total: 130-160 min</span></h4>
+                        <div class="set-time">
+                              <h2>Morning time:</h2>
+                              <div class="js-set-time">
+                                <div class="set-time__block">
+                                  <label>
+                                    <input type="checkbox" class="visually-hidden">
+                                    <span>08:00 - 08:30</span>
+                                  </label>
+                                  <label>
+                                    <input type="checkbox" class="visually-hidden">
+                                    <span>08:00 - 08:30</span>
+                                  </label>
+                                  <label>
+                                    <input type="checkbox" class="visually-hidden">
+                                    <span>08:00 - 08:30</span>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="set-time">
+                              <h2>Day time::</h2>
+                              <div class="js-set-time">
+                                <div class="set-time__block">
+                                  <label>
+                                    <input type="checkbox" class="visually-hidden">
+                                    <span>08:00 - 08:30</span>
+                                  </label>
+                                  <label>
+                                    <input type="checkbox" class="visually-hidden">
+                                    <span>08:00 - 08:30</span>
+                                  </label>
+                                  <label>
+                                    <input type="checkbox" class="visually-hidden">
+                                    <span>08:00 - 08:30</span>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="set-time">
+                              <h2>Eveninig time:</h2>
+                              <div class="js-set-time">
+                                <div class="set-time__block">
+                                  <label>
+                                    <input type="checkbox" class="visually-hidden">
+                                    <span>08:00 - 08:30</span>
+                                  </label>
+                                  <label>
+                                    <input type="checkbox" class="visually-hidden">
+                                    <span>08:00 - 08:30</span>
+                                  </label>
+                                  <label>
+                                    <input type="checkbox" class="visually-hidden">
+                                    <span>08:00 - 08:30</span>
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+                   </div>
+				</div>
+				<div class="footer-buttons">
+					<button class="btn">Back</button>
+					<button class="btn def-ora">Next step</button>
+				</div>
+			</div>
+			<div class="map-wrapper">
+				<div class="map">
+					<div class="com-card com-card--3">
+						<div class="com-card__head">
+							<p class="com-card__head-cap">Awwwards If Name is Big</p>
+							<button class="btn def-ora fav">Add to favorite</button>
+						</div>
+						<div class="com-card__inner">
+							<div class="com-card__img">
+								<div class="com-card__img-box">
+									<img src="../img/Awwwards-logo.svg" alt="logo-img">
+								</div>
+							</div>
+							<div class="com-card__req">
+								<p class="com-card__req-item com-card__req-item--hours">09:00-18:00</p>
+								<a class="com-card__req-item com-card__req-item--site" href="#">www.name.co.il</a>
+								<p class="com-card__req-item com-card__req-item--phone">054 542 02 19</p>
+								<p class="com-card__req-item com-card__req-item--reviews">Reviews: <a href="#">(5 Reviews)</a></p>
+								<p class="com-card__req-item com-card__req-item--location">Petah Tiqva, st. Yael Rom 8</p>
+								<p class="com-card__req-item com-card__req-item--photo">14 photo or videos</p>
+							</div>
+						</div>
+					</div>
+					<div id="map">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.921096950857!2d74.5773261148513!3d42.874509510450956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec83d6e87b83d%3A0x7e54d3ff91301bc7!2zODAg0YPQuy4g0JouINCi0LjQvNC40YDRj9C30LXQstCwLCDQkdC40YjQutC10Lo!5e0!3m2!1sru!2skg!4v1570186366267!5m2!1sru!2skg" style="border:0;" allowfullscreen=""></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <script src="../libs/jquery/dist/jquery.min.js"></script>
+    <script src="../libs/air-datepicker/dist/js/datepicker.min.js"></script>
+    <script src="../libs/jquery-nice-select-1.1.0/js/jquery.nice-select.min.js"></script>
+    <script src="../js/main.js"></script>
+
+</html>

@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic" rel="stylesheet">
+		<link href="../libs/air-datepicker/dist/css/datepicker.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../libs/jquery-nice-select-1.1.0/css/nice-select.css">
+		<link rel="stylesheet" href="../css/style-web.css">
+</head>
+<body>
+<header>
+		<div class="container">
+				<nav class="Main-nav">
+						<a href="#" class="logo"><img src="../img/logo.png" alt="logo"></a>
+						<ul>
+								<li>
+										<a href="#" class="Favorite-text">Favorite</a>
+								</li>
+								<li>
+										<a href="#" class="btn Sign-in-btn">Sign In</a>
+								</li>
+								<li>
+										<a href="#" class="btn Add-new-company-btn">Add a New Company</a>
+								</li>
+						</ul>
+				</nav>
+		</div>
+</header><!--header-->
+<aside class="aside">
+	<a href="#" class="logo"><img src="../img/logo.png" alt="logo"></a>
+	<div class="user">
+			<div class="user__img">
+					<img src="../img/beauty.jpg" alt="">
+			</div>
+			<p>Awwwards Company</p>
+	</div>
+	<ul class="aside-list">
+			<li class="aside-list__cal"><a href="#">Календарь</a></li>
+			<li class="aside-list__mee"><a href="#">Встречи</a></li>
+			<li class="aside-list__cus"><a href="#">Клиенты</a></li>
+			<li class="aside-list__emp"><a href="#">Сотрудники</a></li>
+			<li class="aside-list__set"><a href="#">Настройки</a>
+					<ul class="aside-list__drop">
+							<li><a href="#">Основные</a></li>
+							<li><a href="#">Информация</a></li>
+							<li><a href="#">Услуги</a></li>
+							<li><a href="#">График работы</a></li>
+							<li><a href="#">Пользователи</a></li>
+					</ul>
+			</li>
+			<li class="aside-list__ema"><a href="#">Email уведомления</a></li>
+			<li class="aside-list__sup"><a href="#">Служба поддержки</a></li>
+			<li class="aside-list__log"><a href="#">Выход</a></li>
+	</ul>
+	<div class="burger-x"></div>
+</aside>
+<main class="main">
+    <div class="content">
+        <div class="content__header">
+						<div class="burger"></div>
+            <div>
+                <div class="t1">Встречи</div>
+                <ul class="bread">
+                   <li><a href="#">Встречи</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="#" class="btn def-blue add-emp">Добавить сотрудника</a>
+            </div>
+        </div>
+        <div class="content__inner">
+            <div class="content__block">
+                
+                    <form class="content__items filter">
+                        <div class="content__item">
+                            <label class="label">Поиск по номеру</label>
+                            <input class="input input--233" type="text" placeholder="№">
+                        </div>
+                        <div class="content__item">
+                            <label class="label" for="">Поиск по дате</label>
+                            <input class="datepicker-here input input--233" data-multiple-dates="2" type="text" placeholder="01.09.2019">
+                        </div>
+                        <div class="content__item">
+                            <label class="label" for="">Сотрудник</label>
+                            <select name="" id="" class="select a-select">
+                                <option data-display="все"></option>
+                                <option value="">Лев</option>
+                                <option value="">Крокодил</option>
+                            </select>
+                        </div>
+                        <div class="content__item">
+                            <label class="label" for="">Клиент</label>
+                            <select name="" id="" class="select a-select">
+                                <option data-display="все"></option>
+                                <option value="">Лев</option>
+                                <option value="">Крокодил</option>
+                            </select>
+                        </div>
+                        <div class="content__item">
+                            <label class="label" for="">Сервис</label>
+                            <select name="" id="" class="select a-select">
+                                <option data-display="все"></option>
+                                <option value="">Лев</option>
+                                <option value="">Крокодил</option>
+                            </select>
+                        </div>
+                        <div class="content__item">
+                            <label class="label" for="">Статус</label>
+                            <select name="" id="" class="select a-select">
+                                <option data-display="все"></option>
+                                <option value="">Лев</option>
+                                <option value="">Крокодил</option>
+                            </select>
+                        </div>
+                        <div class="content__item content__item--r">
+                            <label class="label" for="">Результатов: 25</label>
+                            <button class="btn def-ora">Показать результат</button>
+                        </div>
+                    </form>
+
+            </div>
+
+            <div class="content__block">
+                <div class="content__items">
+                    <div class="content__item overflow">
+                        <table class="meet-t"  cellspacing="20" border="0" cellpadding="0">
+                            <tbody>
+                                <tr>
+                                    <th>№ Встречи</th>
+                                    <th>Время встречи</th>
+                                    <th>Сотрудник</th>
+                                    <th>Клиент</th>
+                                    <th>Контакты клиента</th>
+                                    <th>Услуга</th>
+                                    <th>Длительность</th>
+                                    <th>Статус</th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <th>001</th>
+                                    <td>16.09.2019 <br>16:00</td>
+                                    <td>
+                                        <div class="meet-t__ava">
+                                            <img src="../img/beauty.jpg" alt="">
+                                             
+                                            <p>
+                                                <b>Асель Джакыпова</b>
+                                                <br>
+                                                <span>Парикмахер</span>
+                                            </p>
+                                        </div>                                       
+                                    </td>
+                                    <td>
+                                        <div class="meet-t__ava">
+                                            <img src="../img/beauty.jpg" alt="">
+                                             
+                                            <p>
+                                                <b>Асель Джакыпова</b>
+                                            </p>
+                                        </div> 
+                                    </td>
+                                    <td><a href="tel:+996000123123">+996 (000) 123-123</a><br><a href="mailto:simple@mail.in">simple@mail.in</a></td>
+                                    <td><p class="t2-14">Укладка волос, ногтевой серв...</p></td>
+                                    <td>01:30</td>
+                                    <td><b class="status">В ожидании</b></td>
+                                    <td>
+                                        <span class="edit"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>001</th>
+                                    <td>16.09.2019 <br>16:00</td>
+                                    <td>
+                                        <div class="meet-t__ava">
+                                            <img src="../img/beauty.jpg" alt="">
+                                             
+                                            <p>
+                                                <b>Асель Джакыпова</b>
+                                                <br>
+                                                <span>Парикмахер</span>
+                                            </p>
+                                        </div>                                       
+                                    </td>
+                                    <td>
+                                        <div class="meet-t__ava">
+                                            <img src="../img/beauty.jpg" alt="">
+                                             
+                                            <p>
+                                                <b>Асель Джакыпова</b>
+                                            </p>
+                                        </div> 
+                                    </td>
+                                    <td>+996 (000) 123-123 <br>simple@mail.in</td>
+                                    <td><p class="t2-14">Укладка волос, ногтевой серв...</p></td>
+                                    <td>01:30</td>
+                                    <td><b class="status g-stat">Выполнено <br>оплачено: 2000 с</b>
+                                    </td>
+                                    <td>
+                                        <span class="edit"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>001</th>
+                                    <td>16.09.2019 <br>16:00</td>
+                                    <td>
+                                        <div class="meet-t__ava">
+                                            <img src="../img/beauty.jpg" alt="">
+                                             
+                                            <p>
+                                                <b>Асель Джакыпова</b>
+                                                <br>
+                                                <span>Парикмахер</span>
+                                            </p>
+                                        </div>                                       
+                                    </td>
+                                    <td>
+                                        <div class="meet-t__ava">
+                                            <img src="../img/beauty.jpg" alt="">
+                                             
+                                            <p>
+                                                <b>Асель Джакыпова</b>
+                                            </p>
+                                        </div> 
+                                    </td>
+                                    <td>+996 (000) 123-123 <br>simple@mail.in</td>
+                                    <td><p class="t2-14">Укладка волос, ногтевой серв...</p></td>
+                                    <td>01:30</td>
+                                    <td>
+                                        <b class="status r-stat">Отменено <br>клиентом</b>
+                                    </td>
+                                    <td>
+                                        <span class="edit"></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>001</th>
+                                    <td>16.09.2019 <br>16:00</td>
+                                    <td>
+                                        <div class="meet-t__ava">
+                                            <img src="../img/beauty.jpg" alt="">
+                                             
+                                            <p>
+                                                <b>Асель Джакыпова</b>
+                                                <br>
+                                                <span>Парикмахер</span>
+                                            </p>
+                                        </div>                                       
+                                    </td>
+                                    <td>
+                                        <div class="meet-t__ava">
+                                            <img src="../img/beauty.jpg" alt="">
+                                             
+                                            <p>
+                                                <b>Асель Джакыпова</b>
+                                            </p>
+                                        </div> 
+                                    </td>
+                                    <td>+996 (000) 123-123 <br>simple@mail.in</td>
+                                    <td><p class="t2-14">Укладка волос, ногтевой серв...</p></td>
+                                    <td>01:30</td>
+                                    <td>
+                                        <b class="status r-stat">Отменено <br>сотрудником</b>
+                                    </td>
+                                    <td>
+                                        <span class="edit"></span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<div class="modal">
+    <div class="modal-close"></div>
+    <form class="modal-content content__items new-meet">
+        <div class="content__item">
+            <label class="label" for="">Назначение сотруднику</label>
+            <select name="" id="" class="select f-select">
+                <option data-display="Выберите сотрудника"></option>
+                <option value="">Медведь</option>
+                <option value="">Седведь</option>
+                <option value="">Ведвед</option>
+            </select>
+        </div>
+        <div class="content__item">
+            <label class="label" for="">Назначаемый сервис</label>
+            <select name="" id="" class="select f-select">
+                <option data-display="Выберите сервис"></option>
+                <option value="">Медведь</option>
+                <option value="">Седведь</option>
+                <option value="">Ведвед</option>
+            </select>
+        </div>
+        <div class="content__grow">
+            <div class="content__item">
+                <label class="label">Дата</label>
+                <input class="datepicker-here input" type="text" placeholder="01.09.2019">
+            </div>
+            <div class="content__item">
+                <label class="label">Время от</label>
+                <input class="input" type="text" placeholder="09:00">
+            </div>
+            <div class="content__item">
+                <label class="label">до</label>
+                <input class="input" type="text" placeholder="09:00">
+            </div>
+        </div>
+        <div class="content__item">
+            <label class="label" for="">Выберите клиента</label>
+            <select name="" id="" class="select f-select">
+                <option data-display="Выберите клиента"></option>
+                <option value="">Медведь</option>
+                <option value="">Седведь</option>
+                <option value="">Ведвед</option>
+            </select>
+        </div>
+        <div class="content__item">
+            <label class="label" for="">Отправить уведомление?</label>
+            <select name="" id="" class="select f-select">
+                <option data-display="Не отправлять"></option>
+                <option value="">Медведь</option>
+                <option value="">Седведь</option>
+                <option value="">Ведвед</option>
+            </select>
+        </div>
+        <div class="content__item">
+            <label class="label" for="">Оставить заметку</label>
+            <textarea class="textarea" name="" id="" cols="" rows="7" placeholder="Не отправлять"></textarea>
+        </div>
+        <div class="content__grow">
+            <div class="content__item">
+                <button class="btn def-ora">Сохранить</button>
+            </div>
+            <div class="content__item">
+                <button class="btn">Отмена</button>
+            </div>
+        </div>
+    </form>
+</div>
+<script src="../libs/jquery/dist/jquery.min.js"></script>
+    <script src="../libs/air-datepicker/dist/js/datepicker.min.js"></script>
+    <script src="../libs/jquery-nice-select-1.1.0/js/jquery.nice-select.min.js"></script>
+<script src="../js/common.js"></script>
+</body>
+</html>

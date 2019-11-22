@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic" rel="stylesheet">
+		<link href="../libs/air-datepicker/dist/css/datepicker.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../libs/jquery-nice-select-1.1.0/css/nice-select.css">
+		<link rel="stylesheet" href="../css/style-web.css">
+</head>
+<body>
+<header>
+		<div class="container">
+				<nav class="Main-nav">
+						<a href="#" class="logo"><img src="../img/logo.png" alt="logo"></a>
+						<ul>
+								<li>
+										<a href="#" class="Favorite-text">Favorite</a>
+								</li>
+								<li>
+										<a href="#" class="btn Sign-in-btn">Sign In</a>
+								</li>
+								<li>
+										<a href="#" class="btn Add-new-company-btn">Add a New Company</a>
+								</li>
+						</ul>
+				</nav>
+		</div>
+</header><!--header-->
+<aside class="aside">
+	<a href="#" class="logo"><img src="../img/logo.png" alt="logo"></a>
+	<div class="user">
+			<div class="user__img">
+					<img src="../img/beauty.jpg" alt="">
+			</div>
+			<p>Awwwards Company</p>
+	</div>
+	<ul class="aside-list">
+			<li class="aside-list__cal"><a href="#">Календарь</a></li>
+			<li class="aside-list__mee"><a href="#">Встречи</a></li>
+			<li class="aside-list__cus"><a href="#">Клиенты</a></li>
+			<li class="aside-list__emp"><a href="#">Сотрудники</a></li>
+			<li class="aside-list__set"><a href="#">Настройки</a>
+					<ul class="aside-list__drop">
+							<li><a href="#">Основные</a></li>
+							<li><a href="#">Информация</a></li>
+							<li><a href="#">Услуги</a></li>
+							<li><a href="#">График работы</a></li>
+							<li><a href="#">Пользователи</a></li>
+					</ul>
+			</li>
+			<li class="aside-list__ema"><a href="#">Email уведомления</a></li>
+			<li class="aside-list__sup"><a href="#">Служба поддержки</a></li>
+			<li class="aside-list__log"><a href="#">Выход</a></li>
+	</ul>
+	<div class="burger-x"></div>
+</aside>
+<main class="main">
+    <div class="content">
+        <div class="content__header">
+						<div class="burger"></div>
+            <div>
+                <div class="t1">Настройки</div>
+                <ul class="bread">
+                   <li><a href="#">Настройки</a></li>
+									 <li><a href="#">Информация</a></li>
+									 <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content__inner content__inner--flex">
+            <div class="content__block">
+                    <div class="content__items content__grow">
+                        <div class="content__item choose-sect">
+                            <a href="#" class="choose-sect__kon active">Контакты</a>
+                            <a href="#" class="choose-sect__opi">Описание</a>
+                            <a href="#" class="choose-sect__fot">Фото</a>
+                            <a href="#" class="choose-sect__rek">Реквизиты</a>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="content__block">
+                <div class="content__items">
+                    <div class="w50">
+                        <div class="content__item">
+                            <label for="" class="label">Адрес</label>
+                            <input type="text" class="input" placeholder="Адрес">
+                            <p class="t9">Например, ул. Парковая д.14, 23</p>
+                        </div>
+                        <div class="content__item">
+                            <label for="" class="label">Индекс</label>
+                            <input type="text" class="input" placeholder="Индекс">
+                            <p class="t9">Например, 153150</p>
+                        </div>
+                        <div class="content__item">
+                            <label for="" class="label">Район</label>
+                            <input type="text" class="input" placeholder="Район">
+                            <p class="t9">Например, Тверской</p>
+                        </div>
+                    </div>
+                    <div class="w50">
+                        <div class="content__item">
+                            <label for="" class="label">Телефон</label>
+                            <input type="text" class="input" placeholder="Телефон">
+                            <p class="t9">В формате: 996 000 000 000</p>
+                        </div>
+                        <div class="content__item">
+                            <label for="" class="label">График работы</label>
+                            <input type="text" class="input" placeholder="График работы">
+                            <p class="t9">Например, пн.-вс.: 11:00-22:00</p>
+                        </div>
+                    </div>
+                    <div class="w100">
+                        <div class="content__item">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.921096950857!2d74.5773261148513!3d42.874509510450956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389ec83d6e87b83d%3A0x7e54d3ff91301bc7!2zODAg0YPQuy4g0JouINCi0LjQvNC40YDRj9C30LXQstCwLCDQkdC40YjQutC10Lo!5e0!3m2!1sru!2skg!4v1569501360044!5m2!1sru!2skg" width="100%" height="161" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                        </div>
+                        <div class="content__item">
+                            <button class="btn def-bluish full">Перемещайте маркер, чтобы указать расположение на карте</button>
+                        </div>
+                        <div class="content__item"></div>
+                    </div>
+                    <div class="w100">
+                        <div class="content__item">
+                            <button class="btn def-ora full">Сохранить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="../libs/jquery/dist/jquery.min.js"></script>
+    <script src="../libs/air-datepicker/dist/js/datepicker.min.js"></script>
+    <script src="../libs/jquery-nice-select-1.1.0/js/jquery.nice-select.min.js"></script>
+<script src="../js/common.js"></script>
+</body>
+</html>

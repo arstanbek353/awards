@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic" rel="stylesheet">
+		<link href="../libs/air-datepicker/dist/css/datepicker.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../libs/jquery-nice-select-1.1.0/css/nice-select.css">
+		<link rel="stylesheet" href="../css/style-web.css">
+</head>
+<body>
+<header>
+		<div class="container">
+				<nav class="Main-nav">
+						<a href="#" class="logo"><img src="../img/logo.png" alt="logo"></a>
+						<ul>
+								<li>
+										<a href="#" class="Favorite-text">Favorite</a>
+								</li>
+								<li>
+										<a href="#" class="btn Sign-in-btn">Sign In</a>
+								</li>
+								<li>
+										<a href="#" class="btn Add-new-company-btn">Add a New Company</a>
+								</li>
+						</ul>
+				</nav>
+		</div>
+</header><!--header-->
+<aside class="aside">
+	<a href="#" class="logo"><img src="../img/logo.png" alt="logo"></a>
+	<div class="user">
+			<div class="user__img">
+					<img src="../img/beauty.jpg" alt="">
+			</div>
+			<p>Awwwards Company</p>
+	</div>
+	<ul class="aside-list">
+			<li class="aside-list__cal"><a href="#">Календарь</a></li>
+			<li class="aside-list__mee"><a href="#">Встречи</a></li>
+			<li class="aside-list__cus"><a href="#">Клиенты</a></li>
+			<li class="aside-list__emp"><a href="#">Сотрудники</a></li>
+			<li class="aside-list__set"><a href="#">Настройки</a>
+					<ul class="aside-list__drop">
+							<li><a href="#">Основные</a></li>
+							<li><a href="#">Информация</a></li>
+							<li><a href="#">Услуги</a></li>
+							<li><a href="#">График работы</a></li>
+							<li><a href="#">Пользователи</a></li>
+					</ul>
+			</li>
+			<li class="aside-list__ema"><a href="#">Email уведомления</a></li>
+			<li class="aside-list__sup"><a href="#">Служба поддержки</a></li>
+			<li class="aside-list__log"><a href="#">Выход</a></li>
+	</ul>
+	<div class="burger-x"></div>
+</aside>
+<main class="main">
+    <div class="content">
+        <div class="content__header">
+						<div class="burger"></div>
+            <div>
+                <div class="t1">Настройки</div>
+                <ul class="bread">
+                   <li><a href="#">Настройки</a></li>
+                   <li><a href="#">Сотрудники</a></li>
+                   <li><a href="#">Добавить Сотрудника</a></li>
+                </ul>
+            </div>
+            <div>
+                <a href="#" class="btn def-blue">Добавить сотрудника</a>
+            </div>
+        </div>
+        <div class="content__inner tabs-container">
+            <ul class="tabs tabs--cal">
+                <li class="active">
+                  <a href="">Все сотрудники</a>
+                </li>
+                <li>
+                  <a href="">Иван Иванов</a>
+                </li>
+                <li>
+                  <a href="">Иван Балван</a>
+                </li>
+            </ul>
+            <div class="content__block tabs-content">
+                <div class="content__items tabs-panel active" data-index="0">
+                    <div class="cal-head">
+                        <div class="content__item">
+                            <div class="cal-head__this-month"><span class="str1 prev"></span>сентябрь 2019
+                            <span class="str1 next"></span></div>
+                        </div>
+                        <ul class="cal-head__filter">
+                            <li class="content__item"><a href="" class="btn active">Месяц</a></li>
+                            <li class="content__item"><a href="" class="btn">Неделя</a></li>
+                            <li class="content__item"><a href="" class="btn">День</a></li>
+                        </ul>
+                    </div>
+                    <div class="content__item">
+                        <div class="calendar">
+                            <div class="calendar__week">
+                                <div class="calendar__weekday">Понедельник</div>
+                                <div class="calendar__weekday">Вторник</div>
+                                <div class="calendar__weekday">Среда</div>
+                                <div class="calendar__weekday">Четверг</div>
+                                <div class="calendar__weekday">Пятница</div>
+                                <div class="calendar__weekday">Суббота</div>
+                                <div class="calendar__weekday">Воскресенье</div>
+                            </div>
+                            <div class="calendar__day"><span>1</span></div>
+                            <div class="calendar__day"><span>2</span></div>
+                            <div class="calendar__day"><span>3</span></div>
+                            <div class="calendar__day"><span>4</span></div>
+                            <div class="calendar__day"><span>5</span></div>
+                            <div class="calendar__day"><span>6</span></div>
+                            <div class="calendar__day"><span>7</span></div>
+                            <div class="calendar__day active">
+                                <span>8</span>
+                                <div class="calendar__tusk">
+                                    <b>08:00 - 10:00</b>
+                                    <p>Укладка волос, ногтевой сервис</p>
+                                </div>
+                                <div class="calendar__tusk">
+                                    <b>08:00 - 10:00</b>
+                                    <p>Укладка волос, ногтевой сервис</p>
+                                </div>
+                            </div>
+                            <div class="calendar__day"><span>9</span></div>
+                            <div class="calendar__day"><span>10</span></div>
+                            <div class="calendar__day"><span>11</span></div>
+                            <div class="calendar__day"><span>12</span></div>
+                            <div class="calendar__day"><span>13</span></div>
+                            <div class="calendar__day"><span>14</span></div>
+                            <div class="calendar__day"><span>15</span></div>
+                            <div class="calendar__day"><span>16</span></div>
+                            <div class="calendar__day"><span>17</span></div>
+                            <div class="calendar__day"><span>18</span></div>
+                            <div class="calendar__day"><span>19</span></div>
+                            <div class="calendar__day"><span>20</span></div>
+                            <div class="calendar__day"><span>21</span></div>
+                            <div class="calendar__day"><span>22</span></div>
+                            <div class="calendar__day"><span>23</span></div>
+                            <div class="calendar__day"><span>24</span></div>
+                            <div class="calendar__day"><span>25</span></div>
+                            <div class="calendar__day"><span>26</span></div>
+                            <div class="calendar__day"><span>27</span></div>
+                            <div class="calendar__day"><span>28</span></div>
+                            <div class="calendar__day"><span>29</span></div>
+                            <div class="calendar__day"><span>30</span></div>
+                            <div class="calendar__day"><span>31</span></div>
+                            <div class="calendar__day"><span>1</span></div>
+                            <div class="calendar__day"><span>2</span></div>
+                            <div class="calendar__day"><span>3</span></div>
+                            <div class="calendar__day"><span>4</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__items tabs-panel" data-index="1">
+                    <div class="cal-head">
+                        <div class="content__item">
+                            <div class="cal-head__this-month"><span class="str1 prev"></span>октябрь 2019
+                            <span class="str1 next"></span></div>
+                        </div>
+                        <ul class="cal-head__filter">
+                            <li class="content__item"><a href="" class="btn active">Месяц</a></li>
+                            <li class="content__item"><a href="" class="btn">Неделя</a></li>
+                            <li class="content__item"><a href="" class="btn">День</a></li>
+                        </ul>
+                    </div>
+                    <div class="content__item">
+                        <div class="calendar calendar--week">
+                            <div class="calendar__week">
+                                <div class="calendar__weekday">Понедельник</div>
+                                <div class="calendar__weekday">Вторник</div>
+                                <div class="calendar__weekday">Среда</div>
+                                <div class="calendar__weekday">Четверг</div>
+                                <div class="calendar__weekday">Пятница</div>
+                                <div class="calendar__weekday">Суббота</div>
+                                <div class="calendar__weekday">Воскресенье</div>
+                            </div>
+                            <div class="calendar__day active">
+                                <div class="calendar__tusk">
+                                    <b>08:00 - 10:00</b>
+                                    <p>Укладка волос, ногтевой сервис Укладка волос, ногтевой сервис</p>
+                                </div>
+                                <div class="calendar__tusk">
+                                    <b>08:00 - 10:00</b>
+                                    <p>Укладка волос, ногтевой сервис Укладка волос, ногтевой сервис</p>
+                                </div>
+                            </div>
+                            <div class="calendar__day"></div>
+                            <div class="calendar__day"></div>
+                            <div class="calendar__day"></div>
+                            <div class="calendar__day"></div>
+                            <div class="calendar__day"></div>
+                            <div class="calendar__day"></div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="content__items tabs-panel" data-index="2">
+                    <div class="cal-head">
+                        <div class="content__item">
+                            <div class="cal-head__this-month"><span class="str1 prev"></span>ноябрь 2019
+                            <span class="str1 next"></span></div>
+                        </div>
+                        <ul class="cal-head__filter">
+                            <li class="content__item"><a href="" class="btn active">Месяц</a></li>
+                            <li class="content__item"><a href="" class="btn">Неделя</a></li>
+                            <li class="content__item"><a href="" class="btn">День</a></li>
+                        </ul>
+                    </div>
+                    <div class="content__item">
+                        <div class="calendar">
+                            <div class="calendar__week">
+                                <div class="calendar__weekday">Понедельник</div>
+                            </div>
+                            <div class="calendar__tusk">
+                                <b>08:00 - 10:00</b>
+                                <p>Укладка волос, ногтевой сервис</p>
+                            </div>
+                            <div class="calendar__tusk">
+                                <b>08:00 - 10:00</b>
+                                <p>Укладка волос, ногтевой сервис</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="../libs/jquery/dist/jquery.min.js"></script>
+    <script src="../libs/air-datepicker/dist/js/datepicker.min.js"></script>
+    <script src="../libs/jquery-nice-select-1.1.0/js/jquery.nice-select.min.js"></script>
+<script src="../js/common.js"></script>
+
+</body>
+</html>

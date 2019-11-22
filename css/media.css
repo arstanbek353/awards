@@ -1,0 +1,294 @@
+@media (max-width: 1120px) {
+	.main-content{
+		height: auto;
+	}
+	.main-block{
+		width: 100%;
+	}
+	.map-wrapper{
+		width: 100%;
+		height: 100vh;
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+	.main-head > h1{
+		font-size: 24px;		
+	}
+	.main-nav{
+		height: 50px;
+	}
+	.logo{
+		width: auto;
+	}
+	.logo img{
+		width: 128px;
+		height: 16px;
+	}
+}
+
+@media (max-width: 640px) {
+	.main-nav__btn{
+		display: none;
+	}
+	.burger{
+		display: block;
+		width: 24px;
+		height: 24px;
+		margin-right: 15px;
+
+		background: url(../img/burger.svg) no-repeat center;
+	}
+	.modal.active{
+		display: none;
+	}
+	.search-form {
+		padding-top: 10px;
+	}
+	.service__item{
+		width: 100%;
+	}
+	.block--calendar {
+	    flex-wrap: wrap;
+	    padding: 10px 10px;
+	}
+	.calendar{
+		width: 100%;
+	}
+	#calendar{
+		display: flex;
+		justify-content: center;
+	}
+	.pick-time{
+		max-width: none;
+	}
+	.set-time{
+		margin: 0 auto;
+		margin-bottom: 8px;
+	}
+}
+
+@media (max-width: 480px) {
+	.none480{
+		display: none;
+	}
+	.mobile480{
+		display: block;
+	}
+	.company-block{
+		padding-top: 0;
+	}
+	.company-item-img{
+		padding-top: 15px;
+		padding-bottom: 15px;
+		width: 70px;
+		height: 70px;
+	}
+	.main-head{
+		padding: 15px;
+	}
+	.search-form{
+		padding-top: 0;
+	}
+	.search-block{
+		flex-wrap: wrap;
+		box-shadow: none;
+		justify-content: center;
+		max-width: none;
+	}
+	.search-input,
+	.search-btn{
+		max-width: none;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		border-radius: 10px;
+		margin-bottom: 15px;
+	}
+	.search-btn{
+		padding: 10px 24px;
+		margin: 0;
+	}
+	.radial-check[type="checkbox"] {
+	    width: 30px;
+	    height: 12px;
+	}
+
+	.radial-check[type="checkbox"]:before {
+	    width: 18px;
+	    height: 18px;
+	    top: -3px;
+	}
+
+	.radial-check:checked[type="checkbox"]:before {
+	    left: 18px;
+	}
+	.filter-block{
+		padding-top: 0;
+		padding-bottom: 15px;
+		justify-content: space-between;
+	}
+	.filter-block .btn-filter{
+		margin: 0;
+		order: -1;
+	}
+	.filter-block .radial-check-wrapper{
+		padding: 0;
+	}
+	.crumbs{
+		display: none;
+	}
+	.block{
+		padding: 15px;
+	}
+	.com-card{
+		padding-bottom: 36px;
+	}
+	.com-card--head{
+		padding-bottom: 0px;
+	}
+	.com-card__img{
+		padding: 8px;
+	}
+	.com-card__img-box{
+		width: 46px;
+		height: 46px;
+	}
+	.com-card__info{
+		padding: 8px;
+	}
+	.com-card__name{
+		margin-bottom: 8px;
+	}
+	.com-card__text{
+		margin-bottom: 0;
+	}
+	.com-card__star{
+		padding: 8px;
+	}
+	.star-block {
+	    padding: 35px 10px 10px;
+	    margin-top: 16px;
+	}
+	.order-items{
+		margin: 0 -15px;
+	}
+	.title{
+		font-size: 14px;
+		margin-top: 0;
+	}
+	.title--order{
+		font-size: 12px;
+		font-weight: 500;
+	}
+	.order-block{
+		padding-top: 5px;
+		padding-bottom: 0;
+	}
+	.order-text{
+		display: none;
+	}
+	.order-item .order-number{
+		width: 30px;
+		height: 30px;
+	}
+	.order-line:after{
+		top: 15px;
+	}
+	.service{
+		margin: 0;
+	}
+	.service__item{
+		padding: 0;
+	}
+	.footer-buttons{
+		background-color: #fff;
+		padding: 15px;
+	}
+	.star-block--line{
+		display: none;
+	}
+	.block--calendar{
+		padding: 15px;
+	}
+	.calendar{
+		padding: 0;
+	}
+	.datepicker--cell{
+	    height: 38px;
+	}
+	.datepicker-inline .datepicker {
+	    border: none;
+	    box-shadow: none;
+	    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+	    border-radius: 0px;
+	}
+	.pick-time{
+		padding: 0;
+		padding-top: 15px;
+	}
+	.set-time{
+		max-width: none;
+		font: 100%;
+	}
+	.footer-buttons .btn {
+	    width: 130px;
+	}
+	.form__item{
+		width: 100%;
+		padding: 0;
+		padding-bottom: 15px;
+	}
+	.form{
+		margin: 0;
+	}
+	.service__total{
+		padding-right: 0;
+		padding-top: 10px;
+	}
+	.green-text{
+		padding: 4px 0;
+	}
+	.input-center{
+		width: 100%;
+		max-width: none;
+	}
+
+	.com-card--user{
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+.com-card--user .com-card__img-box{
+    width: 120px;
+    height: 120px;
+}
+.com-card--user .com-card__info{
+	padding: 0;
+}
+.com-card--user .com-card__name{
+    text-align: center;
+    width: 100%;
+    order: 1;
+    font-weight: 500;
+}
+.com-card--user .com-card__text{
+    width: 100%;
+    order: 3;
+}
+.com-card--user .com-card__contact{
+    width: 100%;
+    text-align: center;
+    order: 2;
+    padding: 10px;
+}
+.user-modal__buttons{
+	display: none;
+}
+.user-modal__item-50{
+	width: 100%;
+	text-align: center;
+}
+.user-modal__flex p{
+	padding-left: 0px;	
+}
+
+}
